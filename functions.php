@@ -3,7 +3,7 @@
 /**
  * WordPress Functions
  *
- * @package Sodium
+ * @package sodium
  */
 
 /**
@@ -14,6 +14,7 @@
  * @return void
  */
 function sodium_enqueue_styles() {
+   // Enqueue main styles 
    wp_enqueue_style( 'sodium_stylesheet', get_stylesheet_directory_uri() . '/assets/css/style.css', [], "0.1" );
 }
 

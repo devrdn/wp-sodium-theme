@@ -11,9 +11,7 @@ get_header();
 ?>
 
 <section class="content">
-   <div>
-      <p>Hello WordPress</p>
-   </div>
+   
 </section>
 
 <?php

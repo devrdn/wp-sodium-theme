@@ -3,7 +3,7 @@
 /**
  * Footer template
  * 
- * @package Sodium
+ * @package sodium
  */
 ?>
 
