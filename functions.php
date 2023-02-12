@@ -6,6 +6,19 @@
  * @package sodium
  */
 
+if ( !defined( 'SODIUM_THEME_PATH' ) ) {
+   define( 'SODIUM_THEME_PATH', untrailingslashit( get_template_directory() ) );
+}
+
+// Class autoloader
+require_once __DIR__ . './vendor/autoload.php';
+
+function sodium_get_theme_class_instance() {
+   return \Sodium\Inc\Sodium_Theme::get_instance();
+}
+
+sodium_get_theme_class_instance();
+
 /**
  * Enqueues the stylesheet for the theme.
  *
