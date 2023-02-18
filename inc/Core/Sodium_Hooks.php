@@ -1,6 +1,6 @@
 <?php
 
-namespace Sodium\Inc;
+namespace Sodium\Inc\Core;
 
 class Sodium_Hooks
 {
